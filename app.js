@@ -12,7 +12,7 @@ var mongoose=require('mongoose');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect('mongodb+srv://user:ldUyYa35tdENIu39@cluster0.gk8zr.mongodb.net/mongoose?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.gk8zr.mongodb.net/mongoose?retryWrites=true&w=majority')
 
 
 
